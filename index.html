@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <title>跳转中...</title>
+    <title>game</title>
 </head>
 <body>
     <button onclick="openBlank()" style="display:none; padding:15px; margin:20px auto; font-size:16px; cursor:pointer;">点击进入游戏中心</button>
@@ -41,84 +41,21 @@
     </style>
 </head>
 <body>
-    <header><h1>游戏中心</h1></header>
+    <header><h1>game hub</h1></header>
     
     <div class="game-grid">
-        <!-- 游戏 1 -->
-        <div class="game-card">
-            <div class="game-cover">⛏️</div>
-            <div class="game-info">
-                <div class="game-title">new tuff client</div>
-                <button class="play-btn" onclick="loadGame('https://andy78gg.github.io/tuff/')">立即开玩</button>
-            </div>
-        </div>
+        
         
         <!-- 游戏 2 -->
         <div class="game-card">
             <div class="game-cover">⛏️</div>
             <div class="game-info">
                 <div class="game-title">modern client</div>
-                <button class="play-btn" onclick="loadGame('https://andy78gg.github.io/Eaglercraft-modern/')">立即开玩</button>
+                <button class="play-btn" onclick="loadGame('https://andy78gg.github.io/Eaglercraft-modern/')">Start Game</button>
             </div>
         </div>
         
-        <!-- 游戏 3 -->
-        <div class="game-card">
-            <div class="game-cover">⛏️</div>
-            <div class="game-info">
-                <div class="game-title">tuff client old</div>
-                <button class="play-btn" onclick="loadGame('https://andy78gg.github.io/Eaglercraft-tuff')">立即开玩</button>
-            </div>
-        </div>
-    
-        
-        <!-- 游戏 6 -->
-        <div class="game-card">
-            <div class="game-cover">🥕</div>
-            <div class="game-info">
-                <div class="game-title">dadish</div>
-                <button class="play-btn" onclick="openGameOutside('https://andy78gg.github.io/dadish/')">立即开玩</button>
-            </div>
-        </div>
-        <!-- 游戏 8 -->
-        <div class="game-card">
-            <div class="game-cover">⚔️</div>
-            <div class="game-info">
-                <div class="game-title">打架</div>
-                <button class="play-btn" onclick="loadGame('https://andy78gg.github.io/fight/')">立即开玩</button>
-            </div>
-        </div>
 
-        <!-- 新增卡片（全部放进同一个网格） -->
-        <div class="game-card">
-            <div class="game-cover">⛏️</div>
-            <div class="game-info">
-                <div class="game-title">挂</div>
-                <button class="play-btn" onclick="loadGame('https://andy78gg.github.io/Eaglercraft-hacked-client/')">立即开玩</button>
-            </div>
-        </div>
-        <div class="game-card">
-            <div class="game-cover">💬</div>
-            <div class="game-info">
-                <div class="game-title">聊天</div>
-                <button class="play-btn" onclick="loadGame('https://andy78gg.github.io/chat-app/')">立即开玩</button>
-            </div>
-        </div>
-        <div class="game-card">
-            <div class="game-cover">🎮</div>
-            <div class="game-info">
-                <div class="game-title">game</div>
-                <button class="play-btn" onclick="loadGame('https://andy78gg.github.io/game/')">立即开玩</button>
-            </div>
-        </div>
-        <div class="game-card">
-            <div class="game-cover">⛏️</div>
-            <div class="game-info">
-                <div class="game-title">Eaglercraft 26.2</div>
-                <button class="play-btn" onclick="loadGame('https://andy78gg.github.io/client-hub/eaglercraft-26.2-wispcraft.html')">立即开玩</button>
-            </div>
-        </div>
-    </div>
     <script>
         // 游戏点击事件：在当前 about:blank 内覆盖全屏加载游戏
         // 支持 3D 视角锁定、全屏、手柄
